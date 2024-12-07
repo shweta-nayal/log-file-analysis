@@ -26,11 +26,15 @@ Clone this repository to your local machine using Git.
 git clone https://github.com/your-username/web-log-monitoring.git
 ```
 ### Step 2: Virtual Environemnt & Installing Dependencies
+```bash
 python -m venv venv
 source venv/bin/activate  # On Windows, use `venv\Scripts\activate`
-
+```
+```
 pip install -r requirements.txt
+```
 
 ### Step 3: Run the script
+```bash
 python log_analysis.py
-
+```
